@@ -19,6 +19,7 @@ class _MyAppState extends State<MyApp> {
   void increment() {
     setState(() {
       counter++;
+      print("elo");
     });
   }
 
